@@ -1,0 +1,36 @@
+name: Collect notices
+
+on:
+  schedule:
+    - cron: "0 11 * * *" # every day at 08:00 in Fortaleza (UTC-3)
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Collect notices
+        run: |
+          set -o pipefail
+          uv run main.py --json notices.json | tee notices.txt
+
+      - name: Write job summary
+        if: always()
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat notices.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: notices
+          path: |
+            notices.json
+            notices.txt
