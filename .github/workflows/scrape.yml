@@ -23,7 +23,7 @@ jobs:
           # Print the output to the log and to the job summary, inside a code block
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           trap 'echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"' EXIT
-          uv run main.py --database notices.db --export-json notices.json | tee -a "$GITHUB_STEP_SUMMARY"
+          uv run main.py --database notices.db --export-json notices.json --retention-days 60 | tee -a "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/upload-artifact@v4
         if: always()
