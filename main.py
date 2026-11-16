@@ -13,15 +13,19 @@ Sources:
 The WordPress sites (PROGEP, PROGRAD, DETI, PPGETI, LESC) are read through their RSS
 feeds. PRPPG and GTEL keep their notices on a static page, which is parsed as HTML. The
 FCPC site is a JavaScript app, so its public JSON API is queried directly.
+
+Every collected notice is kept in a SQLite database, keyed by its link, so notices that
+leave a feed are not lost and new ones can be told apart from those already seen.
 """
 
 import argparse
 import json
+import sqlite3
 import ssl
 import sys
 import tempfile
-from dataclasses import asdict, dataclass
-from datetime import date
+from dataclasses import dataclass
+from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
 from xml.etree import ElementTree
@@ -242,6 +246,106 @@ COLLECTORS = {
 }
 
 
+DATABASE_SCHEMA_VERSION = 1
+DATABASE_SCHEMA = """
+CREATE TABLE IF NOT EXISTS notices (
+    link          TEXT PRIMARY KEY,
+    source        TEXT NOT NULL,
+    title         TEXT NOT NULL,
+    published     TEXT,             -- ISO 8601 date, NULL when unknown
+    summary       TEXT NOT NULL,
+    first_seen_at TEXT NOT NULL,    -- UTC timestamp of the run that first collected it
+    last_seen_at  TEXT NOT NULL     -- UTC timestamp of the latest run that collected it
+);
+CREATE INDEX IF NOT EXISTS idx_notices_source_published ON notices (source, published);
+"""
+
+
+def open_database(database_path: str) -> sqlite3.Connection:
+    """Open the notices database, creating its tables when they do not exist yet."""
+    connection = sqlite3.connect(database_path)
+    connection.row_factory = sqlite3.Row
+    current_schema_version = connection.execute("PRAGMA user_version").fetchone()[0]
+    if current_schema_version < DATABASE_SCHEMA_VERSION:
+        connection.executescript(DATABASE_SCHEMA)
+        connection.execute(f"PRAGMA user_version = {DATABASE_SCHEMA_VERSION}")
+        connection.commit()
+    return connection
+
+
+def save_notices(connection: sqlite3.Connection, notices: list[Notice], run_timestamp: str) -> list[Notice]:
+    """Insert new notices and update the ones already stored. Return the notices that were new."""
+    known_links = {row["link"] for row in connection.execute("SELECT link FROM notices")}
+    with connection:
+        connection.executemany(
+            """
+            INSERT INTO notices (link, source, title, published, summary, first_seen_at, last_seen_at)
+            VALUES (:link, :source, :title, :published, :summary, :run_timestamp, :run_timestamp)
+            ON CONFLICT (link) DO UPDATE SET
+                source = excluded.source,
+                title = excluded.title,
+                published = excluded.published,
+                summary = excluded.summary,
+                last_seen_at = excluded.last_seen_at
+            """,
+            [
+                {
+                    "link": notice.link,
+                    "source": notice.source,
+                    "title": notice.title,
+                    "published": notice.published or None,
+                    "summary": notice.summary,
+                    "run_timestamp": run_timestamp,
+                }
+                for notice in notices
+            ],
+        )
+    new_notices = []
+    for notice in notices:
+        if notice.link not in known_links:
+            known_links.add(notice.link)
+            new_notices.append(notice)
+    return new_notices
+
+
+def delete_old_notices(connection: sqlite3.Connection, retention_days: int, run_timestamp: str) -> int:
+    """Delete notices older than `retention_days` that the current run no longer found. Return how many.
+
+    A notice's age comes from its publication date, or from when it was first seen when it has
+    none. Notices still found on their site are kept even when old: deleting them would only
+    make the next run insert them again as new.
+    """
+    cutoff_date = (datetime.fromisoformat(run_timestamp).date() - timedelta(days=retention_days)).isoformat()
+    with connection:
+        cursor = connection.execute(
+            """
+            DELETE FROM notices
+            WHERE COALESCE(published, first_seen_at) < :cutoff_date
+              AND last_seen_at < :run_timestamp
+            """,
+            {"cutoff_date": cutoff_date, "run_timestamp": run_timestamp},
+        )
+    return cursor.rowcount
+
+
+def export_notices_to_json(connection: sqlite3.Connection, json_path: str) -> int:
+    """Write every stored notice to a JSON file in a stable order, so git diffs show only real changes.
+
+    `last_seen_at` is left out because it changes on every run.
+    """
+    rows = connection.execute(
+        """
+        SELECT source, title, link, published, summary, first_seen_at
+        FROM notices
+        ORDER BY source, published DESC, link
+        """
+    ).fetchall()
+    with open(json_path, "w", encoding="utf-8") as json_file:
+        json.dump([dict(row) for row in rows], json_file, ensure_ascii=False, indent=2)
+        json_file.write("\n")
+    return len(rows)
+
+
 def print_notices(notices: list[Notice], max_summary_length: int = 200) -> None:
     current_source = None
     for notice in notices:
@@ -263,29 +367,49 @@ def main():
         "--year", type=int, default=date.today().year, help="keep only notices from this year (default: current year)"
     )
     parser.add_argument("--all-years", action="store_true", help="keep notices from every year")
-    parser.add_argument("--json", metavar="PATH", help="also save the results to a JSON file")
+    parser.add_argument(
+        "--database", metavar="PATH", default="notices.db", help="SQLite database to store notices in (default: %(default)s)"
+    )
+    parser.add_argument("--export-json", metavar="PATH", help="also export every stored notice to a JSON file")
+    parser.add_argument(
+        "--retention-days",
+        type=int,
+        default=60,
+        help="delete stored notices older than this that are no longer on their site (default: %(default)s)",
+    )
     arguments = parser.parse_args()
 
     session = create_session()
-    all_notices: list[Notice] = []
+    collected_notices: list[Notice] = []
     has_failed_source = False
     for source_name in arguments.sources:
         try:
-            source_notices = COLLECTORS[source_name](session)
+            collected_notices += COLLECTORS[source_name](session)
         except (requests.RequestException, ElementTree.ParseError, KeyError, ValueError) as error:
             print(f"[error] {source_name}: {error}", file=sys.stderr)
             has_failed_source = True
-            continue
-        if not arguments.all_years:
-            source_notices = [notice for notice in source_notices if is_from_year(notice, arguments.year)]
-        all_notices += source_notices
 
-    print_notices(all_notices)
+    # Every collected notice is stored; the year filter only applies to what is printed.
+    run_timestamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    connection = open_database(arguments.database)
+    new_notices = save_notices(connection, collected_notices, run_timestamp)
+    deleted_count = delete_old_notices(connection, arguments.retention_days, run_timestamp)
 
-    if arguments.json:
-        with open(arguments.json, "w", encoding="utf-8") as json_file:
-            json.dump([asdict(notice) for notice in all_notices], json_file, ensure_ascii=False, indent=2)
-        print(f"\nSaved {len(all_notices)} notices to {arguments.json}")
+    if arguments.all_years:
+        notices_to_print = collected_notices
+    else:
+        notices_to_print = [notice for notice in collected_notices if is_from_year(notice, arguments.year)]
+    print_notices(notices_to_print)
+
+    print(f"\n##### {len(new_notices)} new notice(s) since the last run #####")
+    print_notices(new_notices)
+
+    print(f"\nSaved {len(collected_notices)} notices to {arguments.database}")
+    print(f"Deleted {deleted_count} notices older than {arguments.retention_days} days that are no longer on their site")
+    if arguments.export_json:
+        exported_count = export_notices_to_json(connection, arguments.export_json)
+        print(f"Exported {exported_count} notices to {arguments.export_json}")
+    connection.close()
 
     sys.exit(1 if has_failed_source else 0)
 

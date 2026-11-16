@@ -20,26 +20,22 @@ jobs:
       - name: Collect notices
         run: |
           set -o pipefail
-          uv run main.py --json out.json | tee notices.txt
-
-      - name: Write job summary
-        if: always()
-        run: |
+          # Print the output to the log and to the job summary, inside a code block
           echo '```' >> "$GITHUB_STEP_SUMMARY"
-          cat notices.txt >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          trap 'echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"' EXIT
+          uv run main.py --database notices.db --export-json notices.json | tee -a "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: notices
           path: |
-            out.json
-            notices.txt
+            notices.db
+            notices.json
 
-      - name: Commit updated out.json
+      - name: Commit updated notices
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add out.json
-          git diff --cached --quiet || (git commit -m "Update out.json" && git push)
+          git add notices.db notices.json
+          git diff --cached --quiet || (git commit -m "Update notices" && git push)
