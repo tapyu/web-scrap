@@ -9,10 +9,14 @@ Sources:
     - LESC: https://www.lesc-lab.com.br/
     - GTEL open calls: https://gtel.ufc.br/inscricoes-abertas/
     - FCPC Central de Concursos: https://centraldeconcursos.fcpc.ufc.br/
+    - UNILAB professor efetivo editais: https://unilab.edu.br/concurso-professor-efetivo/
+    - IFCE "Trabalhe no IFCE" selections: https://portal.ifce.edu.br/processos-seletivos/buscar/?tipo=3
+    - UFCA professor editais: https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/
 
 The WordPress sites (PROGEP, PROGRAD, DETI, PPGETI, LESC) are read through their RSS
-feeds. PRPPG and GTEL keep their notices on a static page, which is parsed as HTML. The
-FCPC site is a JavaScript app, so its public JSON API is queried directly.
+feeds. PRPPG, GTEL, UNILAB and IFCE keep their notices on a static page, which is parsed as
+HTML. The FCPC site is a JavaScript app, so its public JSON API is queried directly. UFCA lists
+its editais as WordPress subpages, which are read through the WordPress REST API.
 
 Every collected notice is kept in a SQLite database, keyed by its link, so notices that
 leave a feed are not lost and new ones can be told apart from those already seen.
@@ -20,6 +24,7 @@ leave a feed are not lost and new ones can be told apart from those already seen
 
 import argparse
 import json
+import re
 import sqlite3
 import ssl
 import sys
@@ -27,7 +32,7 @@ import tempfile
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 from xml.etree import ElementTree
 
 import certifi
@@ -43,6 +48,14 @@ GTEL_OPEN_CALLS_URL = "https://gtel.ufc.br/inscricoes-abertas/"
 LESC_FEED_URL = "https://www.lesc-lab.com.br/feed/"
 FCPC_API_URL = "https://api.fcpc.adsr.com.br/candidate-area/selective-process/"
 FCPC_PROCESS_PAGE_URL = "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/{process_id}"
+UNILAB_PROFESSOR_EDITAIS_URL = "https://unilab.edu.br/concurso-professor-efetivo/"
+# UNILAB has campuses in Ceará and in Bahia (Campus dos Malês, in São Francisco do Conde).
+# Only the Ceará ones matter, so study sectors whose address names the Bahia campus are dropped.
+UNILAB_BAHIA_CAMPUS_PATTERN = re.compile(r"Malês|São Francisco do Conde|Bahia")
+IFCE_SELECTIONS_URL = "https://portal.ifce.edu.br/processos-seletivos/buscar/?tipo=3"
+UFCA_PAGES_API_URL = "https://www.ufca.edu.br/wp-json/wp/v2/pages"
+UFCA_PROFESSOR_PAGE_ID = 3578  # https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/
+UFCA_CURRENT_EDITAIS_TITLE = "Editais Vigentes"
 
 # The *.ufc.br servers send the wrong intermediate certificate, so their chain cannot be
 # verified with a standard CA bundle. Browsers download the right one from the URL in the
@@ -222,6 +235,136 @@ def collect_fcpc(session: requests.Session) -> list[Notice]:
     return notices
 
 
+def collect_unilab(session: requests.Session) -> list[Notice]:
+    """Read the UNILAB professor editais and open each edital page for its date and study sectors.
+
+    Only the edital lists above the page's first separator are read; below it there are links to
+    older per-institute pages and to fixed documents (resolutions, forms), which are not notices.
+    Study sectors on the Bahia campus are left out, and so are editais with none in Ceará.
+    """
+    response = session.get(UNILAB_PROFESSOR_EDITAIS_URL, timeout=REQUEST_TIMEOUT_SECONDS)
+    response.raise_for_status()
+    page = BeautifulSoup(response.text, "html.parser")
+    page_content = page.select_one("article .conteudo-pagina")
+    if page_content is None:
+        raise ValueError(f"page content not found in {UNILAB_PROFESSOR_EDITAIS_URL}")
+
+    notices = []
+    for element in page_content.find_all(recursive=False):
+        if element.name == "hr":
+            break
+        if element.name != "ul":
+            continue
+        for list_item in element.find_all("li"):
+            edital_link = list_item.find("a", href=True)
+            if edital_link is None:
+                continue
+            edital_url = edital_link["href"]
+            edital_response = session.get(edital_url, timeout=REQUEST_TIMEOUT_SECONDS)
+            edital_response.raise_for_status()
+            edital_page = BeautifulSoup(edital_response.text, "html.parser")
+            date_published_meta = edital_page.select_one("article meta[itemprop='datePublished']")
+            sector_sections = edital_page.select("article details")
+            study_sectors = [
+                sector_section.summary.get_text(" ", strip=True)
+                for sector_section in sector_sections
+                if sector_section.summary is not None
+                and not UNILAB_BAHIA_CAMPUS_PATTERN.search(sector_section.get_text(" "))
+            ]
+            # Editais whose sectors are not in collapsible sections (e.g. 37/2025) are judged by the whole page.
+            edital_text = edital_page.select_one("article").get_text(" ") if edital_page.select_one("article") else ""
+            is_only_in_bahia = (
+                not study_sectors
+                if sector_sections
+                else bool(UNILAB_BAHIA_CAMPUS_PATTERN.search(edital_text)) and "Ceará" not in edital_text
+            )
+            if is_only_in_bahia:
+                continue
+            notices.append(
+                Notice(
+                    source="UNILAB",
+                    title=list_item.get_text(" ", strip=True),
+                    link=edital_url,
+                    published=date_published_meta["content"][:10] if date_published_meta else "",
+                    summary=" | ".join(study_sectors),
+                )
+            )
+    notices.sort(key=lambda notice: notice.published, reverse=True)
+    return notices
+
+
+def collect_ifce(session: requests.Session) -> list[Notice]:
+    """Read every result page of the IFCE selections search, following its "next page" link."""
+    notices = []
+    page_url = IFCE_SELECTIONS_URL
+    while page_url:
+        response = session.get(page_url, timeout=REQUEST_TIMEOUT_SECONDS)
+        response.raise_for_status()
+        page = BeautifulSoup(response.text, "html.parser")
+        for selection_card in page.select(".processos-seletivos .card-ps"):
+            card_header = selection_card.select_one("a.card-ps-header")
+            if card_header is None:
+                continue
+            category = card_header.select_one(".hat")
+            title = card_header.select_one(".title")
+            status = card_header.select_one(".status")
+            for icon in card_header.select(".material-symbols-rounded"):
+                icon.decompose()  # icon names, e.g. "article", are written as text
+            details = [
+                f"{term.get_text(' ', strip=True)} {term.find_next_sibling('dd').get_text(' ', strip=True)}"
+                for term in card_header.select("dl dt")
+                if term.find_next_sibling("dd") is not None
+            ]
+            summary_parts = [element.get_text(" ", strip=True) for element in (category, status) if element] + details
+            notices.append(
+                Notice(
+                    source="IFCE",
+                    title=title.get_text(" ", strip=True) if title else card_header.get_text(" ", strip=True),
+                    link=urljoin(page_url, card_header["href"]),
+                    published="",
+                    summary=" | ".join(summary_parts),
+                )
+            )
+        next_page_link = page.select_one(".pagination a[href*='page=']:-soup-contains('Próxima')")
+        page_url = urljoin(page_url, next_page_link["href"]) if next_page_link else None
+    return notices
+
+
+def fetch_ufca_child_pages(session: requests.Session, parent_page_id: int) -> list[dict]:
+    response = session.get(
+        UFCA_PAGES_API_URL,
+        params={"parent": parent_page_id, "per_page": 100, "_fields": "id,link,title,date,modified"},
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def collect_ufca(session: requests.Session) -> list[Notice]:
+    """Read the current UFCA professor editais: Docentes > <kind of position> > Editais Vigentes > <edital>.
+
+    Finished editais ("Editais Finalizados") are left out.
+    """
+    notices = []
+    for position_kind_page in fetch_ufca_child_pages(session, UFCA_PROFESSOR_PAGE_ID):
+        position_kind = html_to_text(position_kind_page["title"]["rendered"])
+        for group_page in fetch_ufca_child_pages(session, position_kind_page["id"]):
+            if html_to_text(group_page["title"]["rendered"]) != UFCA_CURRENT_EDITAIS_TITLE:
+                continue
+            for edital_page in fetch_ufca_child_pages(session, group_page["id"]):
+                notices.append(
+                    Notice(
+                        source="UFCA",
+                        title=f"{html_to_text(edital_page['title']['rendered'])} - Docente {position_kind}",
+                        link=edital_page["link"],
+                        published=edital_page["date"][:10],
+                        summary=f"Docente {position_kind} | Atualizado em {edital_page['modified'][:10]}",
+                    )
+                )
+    notices.sort(key=lambda notice: notice.published, reverse=True)
+    return notices
+
+
 def is_from_year(notice: Notice, year: int) -> bool:
     """Tell whether a notice belongs to the given year.
 
@@ -243,6 +386,9 @@ COLLECTORS = {
     "lesc": collect_lesc,
     "gtel": collect_gtel,
     "fcpc": collect_fcpc,
+    "unilab": collect_unilab,
+    "ifce": collect_ifce,
+    "ufca": collect_ufca,
 }
 
 
