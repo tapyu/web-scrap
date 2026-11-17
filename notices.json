@@ -1,7 +1,7 @@
 [
   {
     "source": "DETI",
-    "title": "Resultado final – Seleção Agente UFC de Extensão Edital 16/2026 Projeto Mulheres em CT",
+    "title": "Resultado final – Seleção Agente UFC de Extensão Edital 16/2026 Projeto Mulheres em C&T",
     "link": "https://deti.ufc.br/pt/resultado-final-selecao-agente-ufc-de-extensao-edital-16-2026-projeto-mulheres-em-ct/",
     "published": "2026-09-22",
     "summary": "O Departamento de Engenharia de Teleinformática (DETI) da Universidade Federal do Ceará, no uso de suas atribuições legais torna público o resultado final do Edital de Seleção Agente UFC de Extensão – Edital 16/2026 – Projeto Mulheres em C&T, o qual foi realizado sob a responsabilidade da Professora Hilma Vasconcelos. Resultado Final: https://deti.ufc.br/wp-content/uploads/2026/09/resultado-selecao-agenteufc.pdf",
@@ -84,7 +84,7 @@
     "title": "EDITAL Nº 52/2026/CCV/UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SUPERIOR DA UNIVERSIDADE FEDERAL DO CEARÁ",
     "link": "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/e10dd7f7-d58c-4d8e-a6fa-7e9493a45a27",
     "published": "2026-11-11",
-    "summary": "Concurso Público | Em andamento | Inscrições: 24/11/2026 09:00 a 07/12/2026 23:59 | Vagas: 11",
+    "summary": "Concurso Público | Período de Isenção, Em andamento | Inscrições: 24/11/2026 09:00 a 07/12/2026 23:59 | Vagas: 11",
     "first_seen_at": "2026-11-12T18:38:04+00:00"
   },
   {
@@ -92,7 +92,7 @@
     "title": "EDITAL Nº 50/2026/CCV/UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DA CARREIRA DE MAGISTÉRIO DO ENSINO BÁSICO, TÉCNICO E TECNOLÓGICO DA UNIVERSIDADE FEDERAL DO CEARÁ",
     "link": "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/af404d84-f2d7-487d-968a-a962eb680fd5",
     "published": "2026-10-14",
-    "summary": "Concurso Público | Aberto para Recurso, Inscrições Abertas | Inscrições: 31/10/2026 09:00 a 10/11/2026 23:59 | Vagas: 5",
+    "summary": "Concurso Público | Inscrições Abertas | Inscrições: 31/10/2026 09:00 a 10/11/2026 23:59 | Vagas: 5",
     "first_seen_at": "2026-10-15T15:40:00+00:00"
   },
   {
@@ -172,7 +172,7 @@
     "title": "EDITAL Nº 03/BATURITÉ/CCV/UFC - PREFEITURA MUNICIPAL DE BATURITÉ CONCURSO PÚBLICO PARA PROVIMENTO DE VAGAS NO CARGO DE GUARDA MUNICIPAL",
     "link": "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/f894a886-d3d2-424e-b128-77254364579d",
     "published": "2026-01-30",
-    "summary": "Concurso Público | Em andamento | Inscrições: 09/03/2026 10:00 a 06/05/2026 23:59 | Vagas: 20",
+    "summary": "Concurso Público | Aberto para Recurso, Em andamento | Inscrições: 09/03/2026 10:00 a 06/05/2026 23:59 | Vagas: 20",
     "first_seen_at": "2026-10-15T15:40:00+00:00"
   },
   {
@@ -206,6 +206,622 @@
     "published": null,
     "summary": "",
     "first_seen_at": "2026-11-16T22:15:33+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Aracati - Processo seletivo monitoria - 2025",
+    "link": "https://portal.ifce.edu.br/campus/aracati/bolsas-para-estudantes/aracati-processo-seletivo-monitoria-2025/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 22/2025 - GAB-ARA/DG-ARA/ARACATI-IFCE | Seleção para: Aracati",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Aracati - Processo Seletivo Professor Substituto",
+    "link": "https://portal.ifce.edu.br/campus/aracati/trabalhe-no-ifce/aracati-processo-seletivo-professor-substituto/",
+    "published": null,
+    "summary": "Professor Substituto | Finalizado | Edital: 23/2025 - GAB-ARA/DG-ARA/ARACATI-IFCE | Seleção para: Aracati",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Aracati] Professor Substituto de Matemática Aplicada - Edital 27/2025",
+    "link": "https://portal.ifce.edu.br/campus/aracati/trabalhe-no-ifce/aracati-professor-substituto-de-matematica-aplicada-edital-272025/",
+    "published": null,
+    "summary": "Professor Substituto | Finalizado | Edital: 27/2025 - GAB-ARA/DG-ARA/ARACATI-IFCE | Seleção para: Aracati",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Aracati] Seleção de instrutor e monitor - Projeto acredita no primeiro passo - Edital 28",
+    "link": "https://portal.ifce.edu.br/campus/aracati/trabalhe-no-ifce/aracati-selecao-de-instrutor-e-monitor-projeto-acredita-no-primeiro-passo-edital-28/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 28/2026 - GAB-ARA/DG-ARA/ARACATI | Seleção para: Aracati",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Baturité] Seleção Professor Substituto Subárea Física Geral e Experimental",
+    "link": "https://portal.ifce.edu.br/campus/baturite/trabalhe-no-ifce/baturite-selecao-professor-substituto-subarea-fisica-geral-e-experimental/",
+    "published": null,
+    "summary": "Professor Substituto | Finalizado | Edital: 3/2026 - DG-BAT | Seleção para: Baturité",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Professor Formador para a UAB",
+    "link": "https://portal.ifce.edu.br/campus/baturite/trabalhe-no-ifce/selecao-de-professor-formador-para-a-uab/",
+    "published": null,
+    "summary": "Professor Formador | Finalizado | Edital: 20/2025 - CREAD/GABR/REITORIA-IFCE | Seleção para: Baturité",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção professor de Matemática Partiu IF",
+    "link": "https://portal.ifce.edu.br/campus/baturite/trabalhe-no-ifce/selecao-professor-de-matematica-partiu-if/",
+    "published": null,
+    "summary": "Professor colaborador | Finalizado | Edital: 1/2026 - DG-BAT | Seleção para: Baturité",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo Seletivo Monitoria 2025.2",
+    "link": "https://portal.ifce.edu.br/campus/caninde/bolsas-para-estudantes/processo-seletivo-monitoria-20252/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 62/2025 - DG/CAN | Seleção para: Canindé",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Curso de extensão - Introdução à Libras",
+    "link": "https://portal.ifce.edu.br/campus/caninde/estude-no-ifce/curso-de-extensao-introducao-a-libras/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 67/2025 - DG/CAN | Seleção para: Canindé",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo Seletivo de Substituto - Ciências da Computação",
+    "link": "https://portal.ifce.edu.br/campus/caninde/trabalhe-no-ifce/processo-seletivo-de-substituto-ciencias-da-computacao/",
+    "published": null,
+    "summary": "Professor Substituto | Finalizado | Edital: 81/2025 - DG-CAN | Seleção para: Canindé",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo Seletivo de Substitutos - Artes (Música) e Educação",
+    "link": "https://portal.ifce.edu.br/campus/caninde/trabalhe-no-ifce/processo-seletivo-de-substitutos-artes-musica-e-educacao/",
+    "published": null,
+    "summary": "Professor Substituto | Finalizado | Edital: 86/2025 - DG-CAN | Seleção para: Canindé",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo Seletivo de Substitutos - Ciências da Computação e Educação Física",
+    "link": "https://portal.ifce.edu.br/campus/caninde/trabalhe-no-ifce/processo-seletivo-de-substitutos-ciencias-da-computacao-e-educacao-fisica/",
+    "published": null,
+    "summary": "Professor Substituto | Finalizado | Edital: 39/2025 - DG-CAN | Seleção para: Canindé",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Apoio Pedagógico e Supervisor para curso de Interpretação em Libras (Programa Mulheres Mil)",
+    "link": "https://portal.ifce.edu.br/campus/caninde/trabalhe-no-ifce/selecao-de-apoio-pedagogico-e-supervisor-para-curso-de-interpretacao-em-libras-programa-mulheres-mil/",
+    "published": null,
+    "summary": "Apoio Pedagógico | Finalizado | Edital: 17/2026 - DG-CAN | Seleção para: Canindé",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Curso Inglês Pré-intermediário I - Campus Caucaia (Edital Nº 31/2025)",
+    "link": "https://portal.ifce.edu.br/campus/caucaia/estude-no-ifce/curso-ingles-pre-intermediario-i-campus-caucaia-edital-n-312025/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 31/2025 - GAB-CAU/DG-CAU/CAUCAIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Curso Japonês Básico IV - Campus Caucaia (Edital Nº 30/2025)",
+    "link": "https://portal.ifce.edu.br/campus/caucaia/estude-no-ifce/curso-japones-basico-iv-campus-caucaia-edital-n-302025/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 30/2025 - GAB-CAU/DG-CAU/CAUCAIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Campus Caucaia] Processo Seletivo 2026.1 - Cursos Técnicos Integrados - Edital 18/2025",
+    "link": "https://portal.ifce.edu.br/campus/caucaia/estude-no-ifce/processo-seletivo-20261-cursos-tecnicos-integrados-edital-182025/",
+    "published": null,
+    "summary": "Cursos Técnicos | Finalizado | Edital: 18/2025 - DI/PROEN/REITORIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Chamada Interna Simplificada para Seleção de Bolsistas (Servidores) do PRONATEC EMPREENDER / Bolsa-formação (Edital 7).",
+    "link": "https://portal.ifce.edu.br/campus/caucaia/trabalhe-no-ifce/chamada-interna-simplificada-para-selecao-de-bolsistas-servidores-do-pronatec-empreender-bolsa-formacao-edital-7/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 7/2026 - GAB-CAU/DG-CAU/CAUCAIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Chamada simplificada para seleção de bolsistas (servidores) para desempenhar atividades de ensino no Programa Mulheres Mil (Edital 5).",
+    "link": "https://portal.ifce.edu.br/campus/caucaia/trabalhe-no-ifce/chamada-simplificada-para-selecao-de-bolsistas-servidores-para-desempenhar-atividades-de-ensino-no-programa-mulheres-mil-edital-5/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 5/2026 - GAB-CAU/DG-CAU/CAUCAIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Professor Substituto - Subárea: Fundamentos da Educação, Política e Gestão Educacional - Campus Caucaia (Edital nº 11/2026)",
+    "link": "https://portal.ifce.edu.br/campus/caucaia/trabalhe-no-ifce/professor-substituto-subarea-fundamentos-da-educacao-politica-e-gestao-educacional-campus-caucaia-edital-n-112026/",
+    "published": null,
+    "summary": "Professor Substituto | Finalizado | Edital: 11/2026 - GAB-CAU/DG-CAU/CAUCAIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção para ingresso nas vagas remanescentes do Projeto de Extensão Tutoria online e Gestão de aprendizagem",
+    "link": "https://portal.ifce.edu.br/campus/caucaia/trabalhe-no-ifce/selecao-para-ingresso-nas-vagas-remanescentes-do-projeto-de-extensao-tutoria-online-e-gestao-de-aprendizagem/",
+    "published": null,
+    "summary": "Tutoria On-line | Finalizado | Edital: 2/2025 - IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Contratação de professor substituto",
+    "link": "https://portal.ifce.edu.br/campus/cedro/trabalhe-no-ifce/contratacao-de-professor-substituto/",
+    "published": null,
+    "summary": "Concurso Público para Docente | Finalizado | Edital: 9/2023 - DG-CED | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Edital 10/2026- apoio à curricularização da extensão",
+    "link": "https://portal.ifce.edu.br/campus/cedro/trabalhe-no-ifce/edital-102026-apoio-a-curricularizacao-da-extensao/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 8/2025 - DG/CED | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Edital 12/2026- Seleção de planos de monitoria",
+    "link": "https://portal.ifce.edu.br/campus/cedro/trabalhe-no-ifce/edital-122026/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 12/2026 - DG | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Edital 14/2026-apoio a ações de extensão do IFCE Cedro",
+    "link": "https://portal.ifce.edu.br/campus/cedro/trabalhe-no-ifce/edital-142026-apoio-a-acoes-de-extensao-do-ifce-cedro/",
+    "published": null,
+    "summary": "Apoio Pedagógico | Finalizado | Edital: 14/2026 - DG-CED | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Edital 19/2026- Seleção de monitoria",
+    "link": "https://portal.ifce.edu.br/campus/cedro/trabalhe-no-ifce/edital-192026-selecao-de-monitoria/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 19/2026 - DG-CE | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Edital 5/2026 Processo seletivo complementar do Programa Partiu IF",
+    "link": "https://portal.ifce.edu.br/campus/cedro/trabalhe-no-ifce/edital-52026-processo-seletivo-complementar-do-programa-partiu-if/",
+    "published": null,
+    "summary": "Professor colaborador | Finalizado | Edital: 5/2026 - DG | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Edital 8/2026- Apoio à curricularização de extensão no IFCE",
+    "link": "https://portal.ifce.edu.br/campus/cedro/trabalhe-no-ifce/edital-82026-apoio-a-curricularizacao-de-extensao-no-ifce/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 8/2024 - DG | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Crato - Nova seleção para bolsas de monitoria 2025.2",
+    "link": "https://portal.ifce.edu.br/campus/crato/bolsas-para-estudantes/crato-nova-selecao-para-bolsas-de-monitoria-20252/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 26/2025 - DG-CTO/CRATO | Seleção para: Crato",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Crato] Processo seletivo simplificado para professor(a) substituto(a) de Língua Espanhola",
+    "link": "https://portal.ifce.edu.br/campus/crato/trabalhe-no-ifce/crato-processo-seletivo-simplificado-para-professora-substitutoa-de-lingua-espanhola/",
+    "published": null,
+    "summary": "Professor Substituto | Em andamento | Edital: 56/2026 - DG-CTO | Seleção para: Crato",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Crato] Seleção complementar para professor de Língua Portuguesa do Programa PartiuIF",
+    "link": "https://portal.ifce.edu.br/campus/crato/trabalhe-no-ifce/crato-selecao-complementar-para-professor-de-lingua-portuguesa-do-programa-partiuif-turma-barbalha/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 44/2026 - DG-CTO | Seleção para: Crato",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Fortaleza] Processo de credenciamento de professores colaboradores do Mestrado Profissional em Artes (PPGARTES) - Edital nº 55/2025",
+    "link": "https://portal.ifce.edu.br/campus/fortaleza/trabalhe-no-ifce/credenciamento-professores-colaboradores-mestrado-profissional-em-artes/",
+    "published": null,
+    "summary": "Professor colaborador | Finalizado | Edital: 55/2025 - IFCE - Fortaleza | Seleção para: Fortaleza",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Fortaleza] Seleção de supervisores do PIBID - Edital nº 15/2026",
+    "link": "https://portal.ifce.edu.br/campus/fortaleza/trabalhe-no-ifce/fortaleza-selecao-de-supervisores-do-pibid-edital-n-142026/",
+    "published": null,
+    "summary": "Apoio Pedagógico | Finalizado | Edital: 15/2026 - IFCE Fortaleza | Seleção para: Fortaleza",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Fortaleza] Processo de recredenciamento de professores colaboradores do Mestrado Profissional em Artes (PPGARTES) - Edital nº 54/2025",
+    "link": "https://portal.ifce.edu.br/campus/fortaleza/trabalhe-no-ifce/recredenciamento-mestrado-profissional-em-artes/",
+    "published": null,
+    "summary": "Professor colaborador | Finalizado | Edital: 54/2025 - IFCE - Fortaleza | Seleção para: Fortaleza",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Limoeiro do Norte] Seleção Complementar Simplificada de Professor Temporário para Programa PartiuIF",
+    "link": "https://portal.ifce.edu.br/campus/limoeirodonorte/trabalhe-no-ifce/limoeiro-do-norte-selecao-complementar-simplificada-de-professor-temporario-para-programa-partiuif/",
+    "published": null,
+    "summary": "Professor Temporário | Finalizado | Edital: 23/2022 - DG-LIM/LIMOEIRO-IFCE | Seleção para: Limoeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Limoeiro do Norte] Seleção Professor Bolsista de Supervisão PIBID Música - Edital nº 22/2026",
+    "link": "https://portal.ifce.edu.br/campus/limoeirodonorte/trabalhe-no-ifce/limoeiro-do-norte-selecao-professor-bolsista-de-supervisao-pibid-musica-edital-n-222026/",
+    "published": null,
+    "summary": "Bolsa para professor supervisor | Finalizado | Edital: 22/2026 - DG-LIM/LIMOEIRO-IFCE | Seleção para: Limoeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "PGTA - Seleção para Bolsa para Professor Visitante Nacional Sênio (PVNS) - 2026",
+    "link": "https://portal.ifce.edu.br/campus/limoeirodonorte/trabalhe-no-ifce/pgta-selecao-bolsa-professor-visitante-2026/",
+    "published": null,
+    "summary": "Professor Visitante | Finalizado | Edital: 6/2026 - DG-LIM/LIMOEIRO-IFCE | Seleção para: Limoeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Maracanaú] Edital 06/2026 - Mentores Incubadora",
+    "link": "https://portal.ifce.edu.br/campus/maracanau/trabalhe-no-ifce/maracanau-edital-062026-mentores-incubadora/",
+    "published": null,
+    "summary": "Tutor de Polo | Em andamento | Edital: 6/2026 - DEPPI-MAR/DG-MAR/MARACANAU-IFCE | Seleção para: Maracanaú",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Maracanaú - Seleção para cadastro de reserva de supervisor Pibid/ Núcleo Matemática",
+    "link": "https://portal.ifce.edu.br/campus/maracanau/trabalhe-no-ifce/maracanau-selecao-para-cadastro-de-reserva-de-supervisor-pibid-nucleo-matematica/",
+    "published": null,
+    "summary": "Servidores para Atuação em Seleções de Discentes | Finalizado | Edital: 2/2026 - PIBIB- CAPES-MAR | Seleção para: Maracanaú",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Mediador(a) Pedagógico(a) Para o Curso de Especialização em Educação a Distância na Educação Profissional e Tecnológica (EaD na EPT)",
+    "link": "https://portal.ifce.edu.br/campus/paracuru/trabalhe-no-ifce/selecao-de-mediadora-pedagogicoa-para-o-curso-de-especializacao-em-educacao-a-distancia-na-educacao-profissional-e-tecnologica-ead-na-ept/",
+    "published": null,
+    "summary": "Apoio Pedagógico | Finalizado | Edital: 29/2026 - DG-PAR | Seleção para: Paracuru",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção para professor regente da Especialização em Educação a Distância na Educação Profissional e Tecnológica",
+    "link": "https://portal.ifce.edu.br/campus/paracuru/trabalhe-no-ifce/selecao-para-professor-regente-da-especializacao-em-educacao-a-distancia-na-educacao-profissional-e-tecnologica/",
+    "published": null,
+    "summary": "Professor(a) Regente em EaD | Em andamento | Edital: 31/2026 - DG-PAR | Seleção para: Paracuru",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Partiu IF 2026 - Seleção Complementar de Docentes",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/partiu-if-2026-selecao-complementar-de-docentes/",
+    "published": null,
+    "summary": "Professor Temporário | Finalizado | Edital: 10/2026 - PROEXT/REITORIA-IFCE | Seleção para: Horizonte, \n    \n        Jaguaruana, \n    \n        Paracuru, \n    \n        Tabuleiro do Norte e \n    \n        Tianguá",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Partiu IF 2026 - Seleção de Apoio Pedagógico",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/partiu-if-2026-selecao-de-apoio-pedagogico/",
+    "published": null,
+    "summary": "Apoio Pedagógico | Finalizado | Edital: 2/2026 - IFCE | Seleção para: Acaraú, \n    \n        Acopiara, \n    \n        Aracati, \n    \n        Baturité, \n    \n        Boa Viagem, \n    \n    \n        +28 campi",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Partiu IF 2026 - Seleção de Docentes",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/partiu-if-2026-selecao-de-docentes/",
+    "published": null,
+    "summary": "Professor Temporário | Finalizado | Edital: 1/2026 - IFCE | Seleção para: Acaraú, \n    \n        Acopiara, \n    \n        Aracati, \n    \n        Baturité, \n    \n        Boa Viagem, \n    \n    \n        +28 campi",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Partiu IF 2026 - Seleção Simplificada de Apoio Pedagógico",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/partiu-if-2026-selecao-simplificada-de-apoio-pedagogico/",
+    "published": null,
+    "summary": "Apoio Pedagógico | Finalizado | Edital: 9/2026 - PROEXT/REITORIA-IFCE | Seleção para: Cedro e \n    \n        Horizonte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção Complementar de Professores Temporários Partiu IF",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-complementar-de-professores-temporarios-partiu-if/",
+    "published": null,
+    "summary": "Professor Temporário | Finalizado | Edital: 10/2025 - PROEXT/REITORIA-IFCE | Seleção para: Juazeiro do Norte e \n    \n        Morada Nova",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Assistente Pedagógico(a) para a UAB - 2026.2",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-de-assistente-pedagogicoa-para-a-uab-20262/",
+    "published": null,
+    "summary": "Assistente pegagógico | Finalizado | Edital: 3/2026 - CREAD/GABR/REITORIA | Seleção para: Baturité, \n    \n        Caucaia, \n    \n        Juazeiro do Norte, \n    \n        Maranguape, \n    \n        Paracuru, \n    \n    \n        +2 campi",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Assistente Pedagógico(a) para a UAB",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-de-assistente-pedagogicoa-para-a-uab/",
+    "published": null,
+    "summary": "Assistente pegagógico | Finalizado | Edital: 1/2026 - CREAD/GABR/REITORIA-IFCE | Seleção para: Baturité, \n    \n        Caucaia, \n    \n        Juazeiro do Norte, \n    \n        Maranguape, \n    \n        Paracuru, \n    \n    \n        +2 campi",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Mediador(a) Pedagógico(a)",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-de-mediador-pedagogico/",
+    "published": null,
+    "summary": "Mediador(a) Pedagógico(a) | Finalizado | Edital: 7/2026 - CREAD/GABR/REITORIA | Seleção para: Fortaleza - São Gerardo",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Professor Formador para a UAB",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-de-professor-formador-para-a-uab/",
+    "published": null,
+    "summary": "Professor Formador | Finalizado | Edital: 17/2025 - CREAD/GABR/REITORIA | Seleção para: Juazeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Professor(a) Regente em Educação a Distância",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-de-professor-regente-em-educacao-a-distancia/",
+    "published": null,
+    "summary": "Professor(a) Regente em EaD | Finalizado | Edital: 6/2026 - CREAD/GABR/REITORIA | Seleção para: Fortaleza - São Gerardo",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Professor(a) Formador(a) Orientador(a) de TCC para UAB - GestEPT",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-de-professora-formadora-orientadora-de-tcc-para-uab-gestept/",
+    "published": null,
+    "summary": "Professor Formador | Finalizado | Edital: 2/2026 - CREAD/GABR/REITORIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Tutor a Distância para a UAB",
+    "link": "https://portal.ifce.edu.br/campus/reitoria/trabalhe-no-ifce/selecao-de-tutor-a-distancia-para-a-uab/",
+    "published": null,
+    "summary": "Tutor a Distância | Finalizado | Edital: 19/2025 - CREAD/GABR/REITORIA | Seleção para: Juazeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Tabuleiro do Norte - Seleção de Monitores - Edital nº29/2025",
+    "link": "https://portal.ifce.edu.br/campus/tabuleirodonorte/bolsas-para-estudantes/selecao-de-monitores-2025-tabuleiro-do-norte/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 29/2025 - GAB-TAB/DG-TAB/TABULEIRO-IFCE | Seleção para: Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Tabuleiro do Norte - Monitoria voluntária - Edital nº31/2025",
+    "link": "https://portal.ifce.edu.br/campus/tabuleirodonorte/bolsas-para-estudantes/tabuleiro-do-norte-monitoria-voluntaria-edital-n312025/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 31/2025 - GAB-TAB/DG-TAB/TABULEIRO-IFCE | Seleção para: Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Tabuleiro do Norte] Professor Substituto - Edital nº22/2025",
+    "link": "https://portal.ifce.edu.br/campus/tabuleirodonorte/trabalhe-no-ifce/tabuleiro-do-norte-professor-substituto-edital-n222025/",
+    "published": null,
+    "summary": "Concurso Público para Docente | Finalizado | Edital: 22/2025 - GAB-TAB/DG-TAB/TABULEIRO-IFCE | Seleção para: Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Tabuleiro do Norte] Seleção complementar docente para Partiu IF - Edital nº4/2026",
+    "link": "https://portal.ifce.edu.br/campus/tabuleirodonorte/trabalhe-no-ifce/tabuleiro-do-norte-selecao-complementar-docente-para-partiu-if-edital-n42026/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 4/2026 - GAB-TAB/DG-TAB/TABULEIRO-IFCE | Seleção para: Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Tabuleiro do Norte] SELEÇÃO DE BOLSISTAS – BOLSA-FORMAÇÃO / PRONATEC EMPREENDER - Edital Nº23/2026",
+    "link": "https://portal.ifce.edu.br/campus/tabuleirodonorte/trabalhe-no-ifce/tabuleiro-do-norte-selecao-de-bolsistas-bolsa-formacao-pronatec-empreender-edital-2026_2/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 23/2026 - GAB-TAB/DG-TAB/TABULEIRO-IFCE | Seleção para: Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "[Tabuleiro do Norte] SELEÇÃO DE BOLSISTAS – BOLSA-FORMAÇÃO / PRONATEC EMPREENDER - Edital Nº13/2026",
+    "link": "https://portal.ifce.edu.br/campus/tabuleirodonorte/trabalhe-no-ifce/tabuleiro-do-norte-selecao-de-bolsistas-bolsa-formacao-pronatec-empreender-edital-n132026/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 13/2026 - GAB-TAB/DG-TAB/TABULEIRO-IFCE | Seleção para: Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "CAEF em Movimento 2025.1",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/caef-em-movimento-20251/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 1/2025 - IFCE Fortaleza | Seleção para: Fortaleza",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Curso de Extensão: Básico de QGIS (Limoeiro do Norte/2025)",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/curso-de-extensao-basico-de-qgis-limoeiro-do-norte2025/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 12/2025 - DG-LIM/LIMOEIRO-IFCE | Seleção para: Limoeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Curso de Extensão: Recepcionista em meio de hospedagem (Caucaia/2025)",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/curso-de-extensao-recepcionista-em-meio-de-hospedagem-caucaia2025/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 17/2025 - GAB-CAU/DG-CAU/CAUCAIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Curso de Língua Brasileira de Sinais – LIBRAS Módulo II",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/curso-de-lingua-brasileira-de-sinais-libras-modulo-ii/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 11/2025 - DG-LIM/LIMOEIRO-IFCE | Seleção para: Limoeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Curso Fundamentos de Programação",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/curso-fundamentos-de-programacao/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 10/2025 - DG-LIM/LIMOEIRO-IFCE | Seleção para: Limoeiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção - Curso Técnico em Alimentos (EJA) - turma 2025.1",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/curso-tecnico-em-alimentos-eja-20251-fortaleza/",
+    "published": null,
+    "summary": "Cursos Técnicos | Finalizado | Edital: 5/2025 - IFCE Fortaleza | Seleção para: Fortaleza",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Cursos básicos de Espanhol, Inglês e Libras - campus Canindé",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/cursos-basicos-de-espanhol-ingles-e-libras/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 17/2025 - DG/CAN | Seleção para: Canindé",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção - Cursos de especialização técnica de nível médio - Edital 8/2025",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/cursos-de-especializacao-tecnica-de-nivel-medio/",
+    "published": null,
+    "summary": "Cursos Técnicos | Finalizado | Edital: 8/2025 - IFCE Fortaleza | Seleção para: Fortaleza",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Cursos de extensão - Campus Tabuleiro do Norte (Edital nº9/2025)",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/cursos-de-extensao-campus-tabuleiro-do-norte-edital-n92025/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 9/2025 - GAB-TAB/DG-TAB/TABULEIRO-IFCE | Seleção para: Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Edital 15/2025 Seleção de Professores do Programa Mulheres Mil",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/edital-152025-selecao-de-professores-do-programa-mulheres-mil/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 15/2025 - DG-CED | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Partiu IF - Seleção de Docentes (Complementar)",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/partiu-if-selecao-de-docentes-complementar/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 1/1 - IFCE | Seleção para: Acaraú, \n    \n        Horizonte, \n    \n        Morada Nova e \n    \n        Tabuleiro do Norte",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Partiu IF - seleção de docentes",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/partiu-if/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 1/2025 - IFCE | Seleção para: Acaraú, \n    \n        Acopiara, \n    \n        Aracati, \n    \n        Baturité, \n    \n        Boa Viagem, \n    \n    \n        +28 campi",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo Seletivo 2025.1 - Cursos Técnicos - Multicampi (Edital 10/2024)",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/processo-seletivo-20251-cursos-tecnicos-multicampi/",
+    "published": null,
+    "summary": "Cursos Técnicos | Finalizado | Edital: 10/2024 - IFCE | Seleção para: Acaraú, \n    \n        Acopiara, \n    \n        Aracati, \n    \n        Baturité, \n    \n        Boa Viagem, \n    \n    \n        +20 campi",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo Seletivo 2025.2 - Cursos Técnicos - Fortaleza",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/processo-seletivo-20252-cursos-tecnicos-fortaleza/",
+    "published": null,
+    "summary": "Cursos Técnicos | Finalizado | Edital: 10/2025 - DI/PROEN/REITORIA-IFCE | Seleção para: Fortaleza",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo Seletivo 2025.2 - Cursos Técnicos - Multicampi",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/processo-seletivo-20252-cursos-tecnicos-multicampi/",
+    "published": null,
+    "summary": "Cursos Técnicos | Finalizado | Edital: 9/2025 - IFCE | Seleção para: Acaraú, \n    \n        Aracati, \n    \n        Baturité, \n    \n        Boa Viagem, \n    \n        Camocim, \n    \n    \n        +19 campi",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo seletivo de monitores voluntários e remunerados",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/processo-seletivo-de-monitores-voluntarios-e-remunerados/",
+    "published": null,
+    "summary": "Monitoria | Finalizado | Edital: 17/2025 - DG | Seleção para: Cedro",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Processo seletivo simplificado para ingresso nos cursos de extensão - 2025.1",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/processo-seletivo-simplificado-para-ingresso-nos-cursos-de-extensao-20251/",
+    "published": null,
+    "summary": "Cursos de Extensão | Finalizado | Edital: 3/2025 - CPE-GUA | Seleção para: Guaramiranga",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Professor(a) formador a Distância para o curso de Especialização em Gestão na EPT - UAB",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/selecao-de-professor-formador-a-distancia-para-o-curso-de-especializacao-em-gestao-na-ept-uab/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 12/2025 - GAB-CAU/DG-CAU/CAUCAIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "IFCE",
+    "title": "Seleção de Tutor(a) a Distância para  o curso de  Especialização em Gestão na EPT - UAB",
+    "link": "https://portal.ifce.edu.br/processos-seletivos/selecao-de-tutor-a-distancia-para-a-universidade-aberta-do-brasil-no-ifce/",
+    "published": null,
+    "summary": "Professor Temporário em Programas Especiais | Finalizado | Edital: 11/2025 - CREAD/GABR/REITORIA-IFCE | Seleção para: Caucaia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
   },
   {
     "source": "LESC",
@@ -365,46 +981,6 @@
     "link": "https://ppgeti.ufc.br/pt/ajuste-de-matricula-2026-2/",
     "published": "2026-09-04",
     "summary": "Informamos que o período de ajuste de matrícula do semestre 2026.2 ocorrerá nos dias 8 e 9 de setembro, por meio do SIGAA. A homologação das solicitações pelos orientadores poderá ser realizada entre os dias 8 e 11 de setembro. Chamamos especial atenção dos alunos que ainda não possuem matrícula efetivada em 2026.2. Conforme orientação da PRPPG, os discentes nessa […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PPGETI",
-    "title": "Inscrições abertas para o Workshop de Teses do PPGETI 2026",
-    "link": "https://ppgeti.ufc.br/pt/inscricoes-abertas-para-o-workshop-de-teses-do-ppgeti-2026/",
-    "published": "2026-09-02",
-    "summary": "A Coordenação do Programa de Pós-Graduação em Engenharia de Teleinformática convida toda a comunidade acadêmica para o Workshop de Teses do PPGETI 2026, que será realizado no dia 19 de outubro de 2026, na sede do DETI e no Auditório do LESC. O evento celebrará os 20 anos do PPGETI e a conquista da Nota 7 na avaliação da CAPES, […]",
-    "first_seen_at": "2026-10-19T18:18:50+00:00"
-  },
-  {
-    "source": "PPGETI",
-    "title": "Seleção Interna de Candidatos às Bolsas na Modalidade Professor Visitante no Brasil (PVB) no Âmbito do Projeto CAPES-Global.Edu",
-    "link": "https://ppgeti.ufc.br/pt/selecaoo-interna-de-candidatos-as-bolsas-na-modalidade-professor-visitante-no-brasil-pvb/",
-    "published": "2026-09-02",
-    "summary": "O PPGETI torna pública a abertura do processo seletivo interno para indicação de candidatos(as) à modalidade Professor Visitante no Brasil (PVB), no âmbito do Projeto Temático CAPES-Global.edu — tema Tecnologias da Informação e da Comunicação (TIC), integrante da REDE CONVERGE: Ciência para um Futuro Sustentável, em conformidade com o Edital nº 01/2026 do Comitê Gestor […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PPGETI",
-    "title": "Workshop de Teses do PPGETI 2026",
-    "link": "https://ppgeti.ufc.br/pt/workshop-de-teses-do-ppgeti-2026/",
-    "published": "2026-09-02",
-    "summary": "A Coordenação do Programa de Pós-Graduação em Engenharia de Teleinformática convida toda a comunidade acadêmica para o Workshop de Teses do PPGETI 2026, que será realizado no dia 19 de outubro de 2026, na sede do DETI e no Auditório do LESC. O evento celebrará os 20 anos do PPGETI e a conquista da Nota 7 na avaliação da CAPES, […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PPGETI",
-    "title": "Defesa de Dissertação de Mestrado – Felipe Lima Mota",
-    "link": "https://ppgeti.ufc.br/pt/defesa-de-dissertacao-de-mestrado-felipe-lima-mota/",
-    "published": "2026-09-01",
-    "summary": "Defesa de Dissertação de Mestrado – Felipe Lima Mota Título: User-Centric Cell-Free Massive MIMO with Max-Min Power Control – A Comparative Study Against Cellular Massive MIMO and Small Cells Data: 11/09/2026Horário: 09:30Local: https://meet.google.com/aep-mysu-mkx Banca Examinadora:Walter da Cruz Freitas Junior (UFC, Orientador)Yuri Carvalho Barbosa Silva (UFC)Vicente Angelo de Sousa Junior (UFRN) Resumo:A arquitetura Cell-Free Massive MIMO […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PPGETI",
-    "title": "Palestra “Overview of Fluid Antenna System (FAS) and its Potential for 6G”",
-    "link": "https://ppgeti.ufc.br/pt/palestra-overview-of-fluid-antenna-system-fas-and-its-potential-for-6g/",
-    "published": "2026-09-01",
-    "summary": "Convidamos a comunidade do PPGETI para a palestra “Overview of Fluid Antenna System (FAS) and its Potential for 6G”, ministrada pelo Prof. Kai-Kit Wong, da University College London (UCL), no âmbito do IEEE ComSoc Distinguished Lecturer Program. Palestrante: Prof. Kai-Kit Wong – University College LondonData: 28 de setembro de 2026Horário: 9hLocal: Auditório do LESC (Bloco […]",
     "first_seen_at": "2026-10-15T17:42:01+00:00"
   },
   {
@@ -733,54 +1309,6 @@
     "link": "https://prograd.ufc.br/pt/edital-no-32-2026-selecao-para-estagio-nao-obrigatorio-na-procuradoria-geral-da-ufc/",
     "published": "2026-08-17",
     "summary": "Última atualização em 18 de setembro de 2026 A Coordenadoria de Estágios da Pró-Reitoria de Graduação da Universidade Federal do Ceará (Prograd/UFC), em conformidade com os ordenamentos básicos da Universidade Federal do Ceará (UFC), divulga, nesta segunda-feira (17), o Edital nº 32/2026, para a seleção de estudantes dos Cursos de Direito, com o objetivo de […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PROGRAD",
-    "title": "EDITAL PET-UFC 33/2026 – Seleção de professor tutor para o Grupo PET – Engenharia da Computação – Sobral",
-    "link": "https://prograd.ufc.br/pt/edital-pet-ufc-33-2026-selecao-de-professor-tutor-para-o-grupo-pet-engenharia-da-computacao-sobral/",
-    "published": "2026-08-14",
-    "summary": "Última atualização em 22 de setembro de 2026 A Coordenadoria de Acompanhamento Discente (CAD) da Pró-Reitoria de Graduação da Universidade Federal do Ceará (Prograd/UFC), baseando-se na Portaria n° 976/2010, com alterações implementadas pela portaria MEC nº 343, de 24 de abril de 2013, e no Manual de Orientações Básicas do Programa/2006, torna público o Edital […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PROGRAD",
-    "title": "Edital PAIP n° 31/2026 – Bolsas de Apoio à Gestão Acadêmica da PROGRAD",
-    "link": "https://prograd.ufc.br/pt/edital-paip-n-31-2026-bolsas-de-apoio-a-gestao-academica-da-prograd/",
-    "published": "2026-08-11",
-    "summary": "A Coordenadoria de Acompanhamento Discente (CAD) da Pró‐Reitoria de Graduação da Universidade Federal do Ceará (Prograd/UFC), em consonância com a Resolução nº 08/CEPE, de 26 de abril de 2013 – Anexo Ad Referendum XXII – Programa de Acolhimento e Incentivo à Permanência (PAIP), e com a Portaria 141, de 3 de maio de 2023, torna […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PROGRAD",
-    "title": "Edital PIBID nº 28/2026 – Seleção para vaga e cadastro de reserva de bolsistas de iniciação à docência (Subprojeto Dança)",
-    "link": "https://prograd.ufc.br/pt/edital-pibid-no-28-2026-selecao-para-vaga-e-cadastro-de-reserva-de-bolsistas-de-iniciacao-a-docencia-subprojeto-danca/",
-    "published": "2026-07-23",
-    "summary": "A Pró-Reitoria de Graduação (PROGRAD), em consonância com a Portaria Capes n° 90/2024 e o Edital nº 10/CAPES/MEC, torna público o Edital nº 28/2026, que disciplina os requisitos e o funcionamento da seleção para vaga e cadastro de reserva de bolsistas de iniciação à docência do núcleo de Dança, que compõe o Projeto Institucional do […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PROGRAD",
-    "title": "Edital n° 30/2026 – Seleção de Bolsista PAIP de Apoio à Gestão Acadêmica da PROGRAD (Setor EIDEIA)",
-    "link": "https://prograd.ufc.br/pt/edital-n-30-2026-selecao-de-bolsista-paip-de-apoio-a-gestao-academica-da-prograd-setor-eideia/",
-    "published": "2026-07-22",
-    "summary": "Atualizada em 7 de agosto de 2026. A Coordenadoria de Acompanhamento Discente (CAD) da Pró-Reitoria de Graduação da Universidade Federal do Ceará (UFC), em consonância com a Resolução nº 08/CEPE e com a Portaria 141/2023, torna público o Edital nº 30/2026, para a seleção de estudante de graduação para o preenchimento de bolsa do Programa […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PROGRAD",
-    "title": "EDITAL PET-SESu 29/2026 – Seleção de professor tutor para o Grupo PET – Engenharia Mecânica",
-    "link": "https://prograd.ufc.br/pt/edital-pet-sesu-29-2026-selecao-de-professor-tutor-para-o-grupo-pet-engenharia-mecanica/",
-    "published": "2026-07-22",
-    "summary": "A Coordenadoria de Acompanhamento Discente (CAD) da Pró-Reitoria de Graduação da Universidade Federal do Ceará (Prograd/UFC), baseando-se na Portaria n° 976/2010, com alterações implementadas pela portaria MEC nº 343, de 24 de abril de 2013, e no Manual de Orientações Básicas do Programa/2006, torna público o Edital nº 29, de 22 de julho de 2026, […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PROGRAD",
-    "title": "Edital PIBID nº 1/2026: vagas para bolsistas do subprojeto de Física (Licenciatura)",
-    "link": "https://prograd.ufc.br/pt/edital-pibid-no-1-2026-vagas-para-bolsistas-do-subprojeto-de-fisica-licenciatura/",
-    "published": "2026-07-20",
-    "summary": "A Pró-Reitoria de Graduação (Prograd) da Universidade Federal do Ceará (UFC), por meio da Coordenação do Programa Institucional de Bolsas de Iniciação à Docência (PIBID), torna público o Edital nº 1/2026 para disciplinar os requisitos, os procedimentos e o funcionamento da seleção de bolsistas ID (Iniciação à Docência) subprojeto de Física (Licenciatura) o PIBID/UFC. A […]",
     "first_seen_at": "2026-10-15T17:42:01+00:00"
   },
   {
@@ -1566,5 +2094,565 @@
     "published": null,
     "summary": "Em Andamento | Edital: https://prppg.ufc.br/wp-content/uploads/2026/05/edital-sme-versAo-2026-final.pdf",
     "first_seen_at": "2026-10-15T17:42:01+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 58/2026 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-58-2026/",
+    "published": "2026-10-16",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2026-11-17",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 26/2026 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-26-2026/",
+    "published": "2026-05-06",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2026-07-01",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 20/2026 - Docente Efetivo",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/efetivo/editais-vigentes/edital-20-2026/",
+    "published": "2026-04-13",
+    "summary": "Docente Efetivo | Atualizado em 2026-08-18",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 08/2026 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-08-2026/",
+    "published": "2026-03-09",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2026-05-04",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 05/2026 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-05-2026/",
+    "published": "2026-02-19",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2026-05-26",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 48/2025 - Docente Efetivo",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/efetivo/editais-vigentes/edital-48-2025/",
+    "published": "2025-12-30",
+    "summary": "Docente Efetivo | Atualizado em 2026-11-13",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 38/2025 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-38-2025/",
+    "published": "2025-10-30",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2026-02-19",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 36/2025 - Docente Efetivo",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/efetivo/editais-vigentes/edital-36-2025/",
+    "published": "2025-10-28",
+    "summary": "Docente Efetivo | Atualizado em 2026-04-10",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 31/2025 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-31-2025/",
+    "published": "2025-10-07",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2025-12-10",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 23/2025 - Docente Efetivo",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/efetivo/editais-vigentes/edital-23-2025/",
+    "published": "2025-08-03",
+    "summary": "Docente Efetivo | Atualizado em 2026-10-14",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 27/2025 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-27-2025/",
+    "published": "2025-07-24",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2025-10-22",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 11/2025 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-11-2025/",
+    "published": "2025-04-11",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2025-06-16",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 10/2025 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-10-2025/",
+    "published": "2025-04-04",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2025-08-07",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 06/2025 - Docente Efetivo",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/efetivo/editais-vigentes/edital-06-2025/",
+    "published": "2025-03-14",
+    "summary": "Docente Efetivo | Atualizado em 2026-06-24",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 07/2025 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-07-2025/",
+    "published": "2025-03-14",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2025-05-15",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 53/2024 - Docente Efetivo",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/efetivo/editais-vigentes/edital-53-2024/",
+    "published": "2024-12-13",
+    "summary": "Docente Efetivo | Atualizado em 2026-02-26",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 54/2024 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-54-2024/",
+    "published": "2024-12-13",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2025-02-24",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 50/2024 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-49-2024/",
+    "published": "2024-11-01",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2025-05-28",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 31/2024 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-31-2024/",
+    "published": "2024-07-29",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-09-20",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 10/2024 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-10-2024/",
+    "published": "2024-02-28",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 74/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-74-2023/",
+    "published": "2023-12-27",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 67/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-67-2023/",
+    "published": "2023-11-01",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 62/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-62-2023/",
+    "published": "2023-09-22",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 60/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-60-2023/",
+    "published": "2023-09-14",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 56/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-56-2023/",
+    "published": "2023-09-01",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 49/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-49-2023/",
+    "published": "2023-07-24",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 47/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-47-2023/",
+    "published": "2023-07-06",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 42/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-42-2023/",
+    "published": "2023-06-23",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 39/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-39-2023/",
+    "published": "2023-06-07",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 36/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-36-2023/",
+    "published": "2023-05-12",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 33/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-33-2023/",
+    "published": "2023-05-03",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 07/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-07-2023/",
+    "published": "2023-02-02",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 04/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-04-2023/",
+    "published": "2023-01-19",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 01/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-01-2023/",
+    "published": "2022-12-27",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 03/2023 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-02-2023/",
+    "published": "2022-12-27",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 69/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-69-2022/",
+    "published": "2022-10-25",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 64/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-64-2022/",
+    "published": "2022-10-07",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 62/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-62-2022/",
+    "published": "2022-09-30",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 58/2022 - Docente Efetivo",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/efetivo/editais-vigentes/edital-58-2022/",
+    "published": "2022-09-14",
+    "summary": "Docente Efetivo | Atualizado em 2025-07-25",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 57/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-57-2022/",
+    "published": "2022-09-09",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 38/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-38-2022/",
+    "published": "2022-05-16",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 29/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-29-2022/",
+    "published": "2022-04-18",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 20/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-20-2022/",
+    "published": "2022-03-29",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2024-07-29",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 15/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-15-2022/",
+    "published": "2022-03-18",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 13/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-13-2022/",
+    "published": "2022-02-25",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 01/2022 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-01-2022/",
+    "published": "2022-01-06",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 32/2021 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-32-2021/",
+    "published": "2021-12-07",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 28/2021 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-28-2021/",
+    "published": "2021-11-04",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 23/2021 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-23-2021/",
+    "published": "2021-09-13",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 20/2021 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-20-2021/",
+    "published": "2021-08-03",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 01/2021 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-01-2021/",
+    "published": "2021-01-20",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 28/2020 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-28-2020/",
+    "published": "2020-12-24",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 49/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-49-2019/",
+    "published": "2019-12-27",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 47/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-47-2019/",
+    "published": "2019-12-26",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 46/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-46-2019/",
+    "published": "2019-12-16",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 36/2018 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-36-2018-2/",
+    "published": "2019-11-28",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 42/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-42-2019/",
+    "published": "2019-10-18",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 37/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-37-2019/",
+    "published": "2019-08-06",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 12/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-012-2019/",
+    "published": "2019-08-02",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 17/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-017-2019/",
+    "published": "2019-08-02",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 18/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-018-2019/",
+    "published": "2019-08-02",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 37/2018 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-037-2018/",
+    "published": "2019-08-02",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 05/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-05-2019/",
+    "published": "2019-08-02",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 06/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-06-2019/",
+    "published": "2019-08-02",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UFCA",
+    "title": "Edital 24/2019 - Docente Substituto/Temporário",
+    "link": "https://www.ufca.edu.br/admissao/concursos-e-selecoes/docentes/substituto-temporario/editais-vigentes/edital-024-2019/",
+    "published": "2019-08-01",
+    "summary": "Docente Substituto/Temporário | Atualizado em 2022-09-09",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UNILAB",
+    "title": "Edital Nº 15/2026 (IEDS/ICSA/ICS)",
+    "link": "https://unilab.edu.br/edital-professor-efetivo-no-15-2026/",
+    "published": "2026-11-09",
+    "summary": "IEDS – Setor de Estudos: Circuitos Eletroeletrônicos e Sistemas Digitais | ICSA – Setor de Estudos: Contabilidade Societária | ICSA – Setor de Estudos: Contabilidade Tributária e Prática Contábil | ICSA – Setor de Estudos: Fundamentos do Serviço Social, Instrumentalidade e Processo de Trabalho | ICS – Setor de Estudos: Fisiologia Humana | ICS – Setor de Estudos: Anatomia Humana | ICS – Setor de Estudos: Métodos de Imagem | ICS – Setor de Estudos: Histologia e Embriologia Humana | ICS – Setor de Estudos: Neurociências, Cinesiologia e Biomecânica Aplicadas à Terapia Ocupacional | ICS – Setor de Estudos: Nutrição em Saúde Coletiva e Comportamento Alimentar | ICS – Setor de Estudos: Biologia Celular e Molecular, Histologia e Imunologia Básica | ICS – Setor de Estudos: Bioquímica | ICS – Setor de Estudos: Bases Biológicas, Neurociências e Linguagem Aplicadas à Fonoaudiologia | ICS – Setor de Estudos: Bases Morfofuncionais e Oncologia",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UNILAB",
+    "title": "Edital Nº 14/2026 (ICS)",
+    "link": "https://unilab.edu.br/edital-professor-efetivo-no-14-2026/",
+    "published": "2026-10-01",
+    "summary": "ICS – Setor de Estudos: Avaliação Nutricional e Nutrição Clínica | ICS – Setor de Estudos: Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais | ICS – Setor de Estudos: Anatomia Humana e Cirurgia | ICS – Setor de Estudos: Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica | ICS – Setor de Estudos: Saúde da Mulher | ICS – Setor de Estudos: Métodos de Imagem | ICS – Setor de Estudos: Saúde da Criança | ICS – Setor de Estudos: Psiquiatria",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UNILAB",
+    "title": "Edital Nº 08/2026 (ICS)",
+    "link": "https://unilab.edu.br/edital-professor-efetivo-no-08-2026/",
+    "published": "2026-04-24",
+    "summary": "ICS – Setor de Estudos: Gestão Farmacêutica / Deontologia e Legislação Farmacêutica/ Farmacoepidemiologia | ICS – Setor de Estudos: Hematologia / Estágio em Análises Clínicas, Toxicológicas e Bromatológicas | ICS – Setor de Estudos: Saúde Mental e Práticas em Saúde | ICS – Setor de Estudos: Prática Clínica Baseada em Evidências/Epidemiologia e Estatística | ICS – Setor de Estudos: Saúde da Criança | ICS – Setor de Estudos: Semiologia e Saúde do Adulto",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UNILAB",
+    "title": "Edital N° 50/2025",
+    "link": "https://unilab.edu.br/edital-professor-efetivo-no-50-2025/",
+    "published": "2025-12-18",
+    "summary": "ILL – Setor de Estudos: Português como Língua Adicional (PLA) | IDR – Setor de Estudos: Engenharia de Alimentos | IDR – Setor de Estudos: Ciência e Tecnologia de Alimentos",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
+  },
+  {
+    "source": "UNILAB",
+    "title": "Edital Nº 37/2025",
+    "link": "https://unilab.edu.br/editalprofessorefetivo37_25/",
+    "published": "2025-07-24",
+    "summary": "",
+    "first_seen_at": "2026-11-17T19:27:20+00:00"
   }
 ]
