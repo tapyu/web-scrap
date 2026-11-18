@@ -92,7 +92,7 @@
     "title": "EDITAL Nº 50/2026/CCV/UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DA CARREIRA DE MAGISTÉRIO DO ENSINO BÁSICO, TÉCNICO E TECNOLÓGICO DA UNIVERSIDADE FEDERAL DO CEARÁ",
     "link": "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/af404d84-f2d7-487d-968a-a962eb680fd5",
     "published": "2026-10-14",
-    "summary": "Concurso Público | Inscrições Abertas | Inscrições: 31/10/2026 09:00 a 10/11/2026 23:59 | Vagas: 5",
+    "summary": "Concurso Público | Em andamento | Inscrições: 31/10/2026 09:00 a 10/11/2026 23:59 | Vagas: 5",
     "first_seen_at": "2026-10-15T15:40:00+00:00"
   },
   {
@@ -116,7 +116,7 @@
     "title": "EDITAL Nº 48/2026/CCV/UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SUPERIOR DA UNIVERSIDADE FEDERAL DO CEARÁ",
     "link": "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/9e43bbdc-3c0c-483d-bd76-92878521002d",
     "published": "2026-09-21",
-    "summary": "Concurso Público | Inscrições Abertas | Inscrições: 04/10/2026 10:00 a 13/10/2026 23:59 | Vagas: 65",
+    "summary": "Concurso Público | Em andamento | Inscrições: 04/10/2026 10:00 a 13/10/2026 23:59 | Vagas: 65",
     "first_seen_at": "2026-10-15T15:40:00+00:00"
   },
   {
@@ -132,7 +132,7 @@
     "title": "EDITAL Nº 07/2026/CCV/UFC - SELEÇÃO PARA OS CURSOS DE MESTRADO E DOUTORADO ACADÊMICOS EM EDUCAÇÃO - TURMA 2027.1",
     "link": "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/ad2cfaa7-9ee4-42d7-ba90-1c45603fc601",
     "published": "2026-08-19",
-    "summary": "Seleção pública | Inscrições Abertas | Inscrições: 11/09/2026 10:00 a 08/10/2026 23:59 | Vagas: 98",
+    "summary": "Seleção pública | Em andamento | Inscrições: 11/09/2026 10:00 a 08/10/2026 23:59 | Vagas: 98",
     "first_seen_at": "2026-10-15T15:40:00+00:00"
   },
   {
@@ -905,6 +905,14 @@
   },
   {
     "source": "PPGETI",
+    "title": "Inscrições deferidas para a Seleção de Alunos Regulares do PPGETI – Turma 2027.1",
+    "link": "https://ppgeti.ufc.br/pt/inscricoes-deferidas-para-a-selecao-de-alunos-regulares-do-ppgeti-turma-2027-1/",
+    "published": "2026-11-18",
+    "summary": "Disponível aqui.",
+    "first_seen_at": "2026-11-18T19:10:12+00:00"
+  },
+  {
+    "source": "PPGETI",
     "title": "Defesa de Dissertação de Mestrado – Danilo Felipe Neto",
     "link": "https://ppgeti.ufc.br/pt/defesa-de-dissertacao-de-mestrado-danilo-felipe-neto/",
     "published": "2026-10-28",
@@ -973,14 +981,6 @@
     "link": "https://ppgeti.ufc.br/pt/defesa-de-dissertacao-de-mestrado-lucas-silva-nogueira/",
     "published": "2026-09-24",
     "summary": "Defesa de Dissertação de Mestrado – Lucas Silva Nogueira Título: On-Chip Monitoring of Integrated-Circuit Aging: Auto-Tuning Sensors and Distributed Integration in a RISC-V SoC Data: 29/09/2026Horário: 10:00Local: meet.google.com/jiv-znsr-vga Banca Examinadora:Jarbas Aryel Nunes da Silveira (UFC, Presidente – Orientador) Fabian Luis Vargas (IHP – Coorientador)Giovanni Cordeiro Barroso (UFC)Eduardo Augusto Bezerra (UFSC) Resumo:A redução das margens temporais […]",
-    "first_seen_at": "2026-10-15T17:42:01+00:00"
-  },
-  {
-    "source": "PPGETI",
-    "title": "Ajuste de matrícula 2026.2",
-    "link": "https://ppgeti.ufc.br/pt/ajuste-de-matricula-2026-2/",
-    "published": "2026-09-04",
-    "summary": "Informamos que o período de ajuste de matrícula do semestre 2026.2 ocorrerá nos dias 8 e 9 de setembro, por meio do SIGAA. A homologação das solicitações pelos orientadores poderá ser realizada entre os dias 8 e 11 de setembro. Chamamos especial atenção dos alunos que ainda não possuem matrícula efetivada em 2026.2. Conforme orientação da PRPPG, os discentes nessa […]",
     "first_seen_at": "2026-10-15T17:42:01+00:00"
   },
   {
